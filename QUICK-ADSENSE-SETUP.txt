@@ -1,0 +1,192 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                    GOOGLE ADSENSE - QUICK SETUP                          ║
+║                     Martensite Website                                   ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+✅ CURRENT STATUS: AdSense code is ALREADY ADDED to your website!
+   You just need to replace placeholder IDs with your actual AdSense IDs.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📝 STEP-BY-STEP SETUP
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: Apply for Google AdSense
+   → Go to: https://www.google.com/adsense
+   → Enter your website: www.martensite.ca
+   → Wait 1-4 weeks for approval
+
+STEP 2: Get Your Publisher ID
+   → After approval, login to AdSense dashboard
+   → Go to: Account → Account Information
+   → Copy your Publisher ID (looks like: ca-pub-1234567890123456)
+
+STEP 3: Update Your Website
+   → Open: index.html
+   → Find: ca-pub-YOUR-ADSENSE-ID (appears 5 times)
+   → Replace with: Your actual Publisher ID
+   → Save the file
+
+STEP 4: Choose Ad Strategy
+
+   OPTION A: Auto Ads (Recommended - Easiest!) ⭐
+   ┌────────────────────────────────────────────────┐
+   │ → AdSense Dashboard → Ads → Overview          │
+   │ → Turn ON "Auto ads"                          │
+   │ → Select your website                         │
+   │ → Click "Apply to site"                       │
+   │ → Done! Google handles everything             │
+   └────────────────────────────────────────────────┘
+
+   OPTION B: Manual Ad Units (More Control)
+   ┌────────────────────────────────────────────────┐
+   │ → Create 4 ad units in AdSense                │
+   │ → Get Ad Slot IDs                             │
+   │ → Replace YOUR-AD-SLOT-ID in index.html      │
+   │   (appears 4 times)                           │
+   │ → See ADSENSE-CONFIGURATION.md for details   │
+   └────────────────────────────────────────────────┘
+
+STEP 5: Upload & Test
+   → Upload updated index.html to your server
+   → Visit your website
+   → Accept cookies when banner appears
+   → Wait 24-48 hours for ads to show
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎯 AD PLACEMENTS (Already Added!)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. After Hero Section       → Line ~111 in index.html
+2. Between Services/Pricing → Line ~200 in index.html
+3. About Section Sidebar    → Line ~376 in index.html
+4. Before Contact Section   → Line ~395 in index.html
+
+All placements are:
+✅ Mobile responsive
+✅ Cookie consent compliant
+✅ Automatically hidden until consent
+✅ Professionally styled
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔍 WHAT TO REPLACE IN index.html
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FIND:
+  ca-pub-YOUR-ADSENSE-ID
+
+REPLACE WITH:
+  ca-pub-1234567890123456  (your actual Publisher ID)
+
+APPEARS IN:
+  • Line ~21  (Main AdSense script)
+  • Line ~113 (Ad Placement 1)
+  • Line ~204 (Ad Placement 2)
+  • Line ~378 (Ad Placement 3)
+  • Line ~396 (Ad Placement 4)
+
+TOTAL: 5 replacements needed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🍪 COOKIE CONSENT (Already Configured!)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Banner appears on first visit
+✅ Ads show ONLY if user accepts cookies
+✅ Choice saved in browser
+✅ GDPR/CCPA compliant
+✅ No additional setup needed
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📋 QUICK CHECKLIST
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BEFORE ADSENSE APPROVAL:
+□ Website published at www.martensite.ca
+□ Privacy Policy page accessible (already done ✅)
+□ Terms of Service page accessible (already done ✅)
+□ Cookie consent banner working (already done ✅)
+□ Quality content on website
+□ No prohibited content
+
+AFTER ADSENSE APPROVAL:
+□ Get Publisher ID from AdSense dashboard
+□ Replace ca-pub-YOUR-ADSENSE-ID (5 times)
+□ Choose Auto Ads OR Manual Ad Units
+□ If manual, replace YOUR-AD-SLOT-ID (4 times)
+□ Save index.html
+□ Upload to server
+□ Test with cookie consent
+□ Wait 24-48 hours for ads
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+💰 REVENUE EXPECTATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• Payment Threshold: $100
+• Average CPM: $2-$10 (varies by niche)
+• 100 visitors/day ≈ $5-$20/month (rough estimate)
+• 1000 visitors/day ≈ $50-$200/month (rough estimate)
+
+Actual revenue depends on:
+  → Traffic volume
+  → Visitor location
+  → Content quality
+  → Ad placement
+  → User engagement
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+❓ TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PROBLEM: Ads not showing
+SOLUTION:
+  ✓ Make sure cookies were accepted
+  ✓ Check Publisher ID is correct
+  ✓ Wait 24-48 hours after setup
+  ✓ Clear browser cache
+  ✓ Test in incognito mode
+  ✓ Disable ad blockers for testing
+
+PROBLEM: Empty ad spaces
+SOLUTION:
+  ✓ Wait for Auto Ads to optimize (takes time)
+  ✓ Verify ad units are active in AdSense
+  ✓ Check if site has enough traffic
+  ✓ Ensure content meets AdSense policies
+
+PROBLEM: Console errors
+SOLUTION:
+  ✓ Check browser console (F12)
+  ✓ Verify Publisher ID format
+  ✓ Ensure AdSense script loaded
+  ✓ Check for JavaScript conflicts
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📚 DOCUMENTATION FILES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+QUICK-ADSENSE-SETUP.txt      → This file (quick reference)
+ADSENSE-CONFIGURATION.md      → Detailed setup instructions
+ADSENSE-SETUP-GUIDE.md        → Complete guide with tips
+privacy-policy.html           → Required for AdSense ✅
+terms-of-service.html         → Required for AdSense ✅
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🎉 YOU'RE READY!
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Everything is set up and ready for AdSense!
+
+Just:
+  1. Apply for AdSense
+  2. Get approved
+  3. Replace YOUR-ADSENSE-ID
+  4. Upload to server
+  5. Start earning! 💰
+
+For detailed help, see: ADSENSE-CONFIGURATION.md
+
+Good luck! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
