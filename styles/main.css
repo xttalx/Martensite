@@ -535,6 +535,8 @@ img {
     transition: all var(--transition-base);
     border: 2px solid var(--light-gray);
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .pricing-card.featured {
@@ -615,6 +617,11 @@ img {
     display: flex;
     flex-direction: column;
     gap: 0.875rem;
+}
+
+/* Ensure CTA sits at the bottom so all buttons align horizontally */
+.pricing-card .btn {
+    margin-top: auto;
 }
 
 .pricing-features li {
