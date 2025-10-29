@@ -157,6 +157,14 @@ img {
     box-shadow: var(--shadow-lg);
 }
 
+/* Improve hover feedback for the Pro (featured) pricing card's primary button */
+.pricing-card.featured .btn-primary:hover {
+    background-color: var(--secondary-blue);
+    border-color: var(--secondary-blue);
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
 .btn-secondary {
     background-color: var(--white);
     color: var(--primary-blue);
