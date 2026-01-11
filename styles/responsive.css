@@ -204,6 +204,67 @@
         font-size: 2.5rem;
     }
     
+    /* Renovation & Remodeling Section */
+    .remodeling {
+        padding: var(--spacing-xl) 0;
+    }
+
+    .remodeling-services {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+
+    .remodeling-service-card {
+        padding: var(--spacing-lg);
+    }
+
+    .remodeling-icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .remodeling-icon i {
+        font-size: 2rem;
+    }
+
+    .remodeling-benefits {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .remodeling-pricing-cards {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-lg);
+    }
+
+    .remodeling-pricing-card.featured {
+        transform: scale(1);
+    }
+
+    .remodeling-pricing-card:hover {
+        transform: translateY(-4px) scale(1);
+    }
+
+    .remodeling-pricing-card.featured:hover {
+        transform: translateY(-4px) scale(1);
+    }
+
+    .remodeling-price-range {
+        font-size: 1.75rem;
+    }
+
+    .remodeling-cta {
+        padding: var(--spacing-xl) var(--spacing-md);
+    }
+
+    .remodeling-cta-content h2 {
+        font-size: 1.75rem;
+    }
+
+    .remodeling-cta-content p {
+        font-size: 1rem;
+    }
+
     /* About Section */
     .about {
         padding: var(--spacing-xl) 0;
@@ -411,6 +472,19 @@
         font-size: 2.25rem;
     }
     
+    /* Renovation Section - Small Mobile */
+    .remodeling-service-title {
+        font-size: 1.5rem;
+    }
+
+    .remodeling-price-range {
+        font-size: 1.5rem;
+    }
+
+    .remodeling-cta-content h2 {
+        font-size: 1.5rem;
+    }
+
     /* Stats Grid */
     .stats-grid {
         grid-template-columns: 1fr;
